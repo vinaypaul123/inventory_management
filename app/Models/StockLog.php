@@ -9,6 +9,8 @@ class StockLog extends Model
 {
     use HasFactory;
 
+    protected $guarded = [];
+    
     public function stockMovement() {
         return $this->belongsTo(StockMovement::class);
     }

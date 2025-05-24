@@ -9,7 +9,6 @@ use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
 use App\Models\StockMovement;
-use App\Models\StockLog;
 
 class LogStockMovementJob implements ShouldQueue
 {
