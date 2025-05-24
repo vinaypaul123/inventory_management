@@ -20,6 +20,8 @@ This is a Laravel-based Inventory Management System that provides APIs for manag
 ```bash
 git clone https://github.com/your-username/inventory_management.git
 cd inventory_management
+php artisan migrate
+php artisan db:seed
 
 ### API Endpoints
 ## Authentication
